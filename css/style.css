@@ -48,6 +48,7 @@ h1,h2,h3,h4,h5,h6{
 /* position */
 .contenedorPrincipal{
     border: 2px solid red ;
+    height: 600px;
 }
 
 .caja{
@@ -59,11 +60,19 @@ h1,h2,h3,h4,h5,h6{
 #cajaAzul{
     background: rgb(46, 144, 255);
     position: relative;
+    z-index: 0
+    ;
 }
 #cajaAmarilla{
     background: rgb(228, 232, 97);
+    position: relative;
+    z-index: 1;
+    top: 150px;
+
 }
 #cajaRoja{
     background: rgb(237, 67, 98);
+    position: fixed;
+    
 }
 
