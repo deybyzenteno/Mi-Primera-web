@@ -1,0 +1,69 @@
+/* esto es un comentario */
+/* seleccionar elementos del html y agregar el estilo */
+
+/* tipos de selectores
+nav -  selector de etiqueta
+.nombreDeclase - selector de clase
+#nombreDeID -selector de id
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background: #222121;
+    padding: 20px 0px;
+}
+
+nav a{
+    color: white;
+    padding: 20px 30px;
+}
+
+.contenedor{
+    margin: 30px;
+}
+
+.banner{
+    background: rgb(95, 188, 255);
+    color: white;
+    padding: 45px 0px;
+    text-align: center;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 12px 0px;
+}
+
+#centrarImagen{
+    text-align: center;
+}
+
+/* position */
+.contenedorPrincipal{
+    border: 2px solid red ;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#cajaAzul{
+    background: rgb(46, 144, 255);
+    position: relative;
+}
+#cajaAmarilla{
+    background: rgb(228, 232, 97);
+}
+#cajaRoja{
+    background: rgb(237, 67, 98);
+}
+
