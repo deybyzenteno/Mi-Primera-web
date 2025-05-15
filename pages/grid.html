@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- comentario -->
+    <!-- control + / -->
+    <!-- info para los navegadores y buscadores -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practica de html y css" />
+    <meta name="keywords" content="etiquetas,atributos,css,html" />
+    <meta name="author" content="Nahuel Rodriguez" />
+    <title>Primer web</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- barra de navegacion -->
+      <nav>
+        <a href="../Index.html">Inicio</a>
+        <a href="elementos.html">Elementos</a>
+        <a href="position.html" class="paginaActual">Position</a>
+        <a href="flexbox.html">Flexbox</a>
+        <a href="contactos.html">Contacto</a>
+        <a href="grid.html">CSS GRID</a>
+        <!-- shift + alt + flechita abajo -->
+        <!-- alt + flecha para mover el codigo -->
+        <!-- ../ para salir de la carpeta -->
+      </nav>
+    </header>
+    <main>
+      <h1>Practica de HTML Y CSS</h1>
+      <section class="contenedor">
+        <h1>CSS GRID</h1>
+        <p>
+          CSS Grid es un sistema de diseño bidimensional que permite crear layouts complejos de manera sencilla y flexible. Utilizando contenedores y elementos hijos, Grid facilita la organización de contenido en filas y columnas, permitiendo controlar el tamaño, la posición y el espacio entre los elementos. Es ideal para construir estructuras de página responsivas y adaptables.
+        </p>
+
+        <p>
+          CSS Grid permite crear diseños de página utilizando una cuadrícula de filas y columnas. Para usar Grid, se aplica la propiedad <code>display: grid;</code> al contenedor, y luego se definen las filas y columnas con propiedades como <code>grid-template-rows</code> y <code>grid-template-columns</code>. Los elementos hijos pueden ubicarse en la cuadrícula usando <code>grid-row</code> y <code>grid-column</code>, o mediante áreas nombradas con <code>grid-area</code>. Grid facilita la alineación, el espaciado y la distribución de los elementos, permitiendo construir layouts responsivos y complejos de manera sencilla.
+        </p>
+
+        <article class="">
+            <div class="contenedorGrid">
+              <div id="grid-item1" class="grid-item">1</div>
+              <div id="grid-item2" class="grid-item">2</div>
+              <div id="grid-item3" class="grid-item">3</div>
+              <div id="grid-item4" class="grid-item">4</div>
+              <div id="grid-item5" class="grid-item">5</div>
+              <div id="grid-item6" class="grid-item">6</div>
+            </div>
+            <div class="contenedorGrid">
+              <div id="grid-item1" class="grid-item">1</div>
+              <div id="grid-item2" class="grid-item">2</div>
+              <div id="grid-item3" class="grid-item">3</div>
+              <div id="grid-item4" class="grid-item">4</div>
+              <div id="grid-item5" class="grid-item">5</div>
+              <div id="grid-item6" class="grid-item">6</div>
+        </article>
+
+      </section>
+    </main>
+    <footer>
+      <div id="centrarImagen">
+        <p>&copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
+<!-- control + a para seleccionar toda la pagina -->

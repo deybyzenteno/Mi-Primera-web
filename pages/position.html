@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <!-- esto es un comentario -->
+    <!-- comentario -->
+    <!-- control + / -->
     <!-- info para los navegadores y buscadores -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Practica de html y css" />
-    <meta name="keywords" content="etiquetas, atributos, csss, html" />
-    <meta name="author" content="Emilse Arias" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="keywords" content="etiquetas,atributos,css,html" />
+    <meta name="author" content="Nahuel Rodriguez" />
     <title>Primer web</title>
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
       <!-- barra de navegacion -->
       <nav>
-        <a href="../index.html">Inicio</a>
+        <a href="../Index.html">Inicio</a>
         <a href="elementos.html">Elementos</a>
-        <a href="position.html">Position</a>
+        <a href="position.html" class="paginaActual">Position</a>
         <a href="flexbox.html">Flexbox</a>
-        <a href="contactos.html">Contactos</a>
+        <a href="contactos.html">Contacto</a>
+        <!-- shift + alt + flechita abajo -->
+        <!-- alt + flecha para mover el codigo -->
+        <!-- ../ para salir de la carpeta -->
       </nav>
     </header>
     <main>
-      <!-- zona con toda la info -->
-      <section>
-        <h1>Practica de HTML y CSS</h1>
-      
-      </section>
+      <h1>Practica de HTML Y CSS</h1>
       <section class="contenedor">
-        <h2>Tipos de posicionamiento</h2>
+        <h1>Tipos de posicionamiento</h1>
+        <p>
+          La propiedad position de CSS especifica cómo un elemento es
+          posicionado en el documento. Las propiedades top, right, bottom y left
+          determinan la ubicación final de los elementos posicionados
+        </p>
+
         <p>
           La propiedad position de CSS especifica cómo un elemento es
           posicionado en el documento. Las propiedades top, right, bottom, y
-          left determinan la ubicación final de los elementos posicionados.
-        </p>
-        <p>
-          Un elemento posicionado es un elemento cuyo valor computado de
-          position es relative, absolute, fixed, o sticky. (En otras palabras,
-          cualquiera excepto static).
-          <br />
+          left determinan la ubicación final de los elementos posicionados. Un
+          elemento posicionado es un elemento cuyo valor computado de position
+          es relative, absolute, fixed, o sticky. (En otras palabras, cualquiera
+          excepto static).<br />
           Un elemento posicionado relativamente es un elemento cuyo valor
           computado de position es relative. Las propiedades top y bottom
           especifican el desplazamiento vertical desde su posición original; las
-          propiedades left y right especifican su desplazamiento horizontal.
-          <br />
+          propiedades left y right especifican su desplazamiento horizontal.<br />
+
           Un elemento posicionado absolutamente es un elemento cuyo valor
           computado de position es absolute o fixed. Las propiedades top, right,
           bottom, y left especifican el desplazamiento desde los bordes del
           bloque contenedor del elemento. (El bloque contenedor es el ancestro
           relativo al cual el elemento está posicionado). Si el elemento tiene
           márgenes, se agregarán al desplazamiento. el elemento establece un
-          nuevo contexto de formato de bloque para su contenido
-          <br />
+          nuevo contexto de formato de bloque para su contenido <br />
           Un elemento posicionado fijamente es un elemento cuyo valor de
           position computado es sticky. Es tratado como un elemento posicionado
           relativamente hasta que su bloque contenedor cruza un límite
@@ -64,14 +66,25 @@
         </p>
 
         <article class="contenedorPrincipal">
-            <div class="caja" id="cajaAzul">caja 1</div>
-            <div class="caja" id="cajaAmarilla">caja 2</div>
-            <div class="caja" id="cajaRoja">caja 3</div>
+          <div class="caja" id="cajaAzul">caja 1</div>
+          <div class="caja" id="cajaAmarilla">caja 2</div>
+          <div class="caja" id="cajaRoja">caja 3</div>
+          <p id="parrafoSticky"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eligendi!</p>
+          <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint alias enim est quasi consectetur recusandae ipsum nemo, sequi, harum, labore laboriosam. Laudantium sed sapiente assumenda dolor corrupti sequi adipisci accusamus, animi nam excepturi autem hic quasi eaque nisi delectus voluptatibus at distinctio! Aspernatur placeat error eos accusamus. Natus minima, eius rem, quisquam sed distinctio quae, doloribus dolore a harum fugiat. Cupiditate delectus nobis distinctio eligendi vitae expedita hic animi, nostrum debitis, recusandae minus voluptatem earum fugiat repellat corporis non nemo incidunt, nisi tenetur atque facere iure omnis a. Placeat, dolores esse tenetur nostrum asperiores aut neque doloremque nulla id accusantium veritatis numquam natus fugiat! Tenetur quaerat adipisci accusamus assumenda beatae voluptas, ipsum corporis dolor facilis architecto, corrupti ex laboriosam quibusdam quasi, temporibus qui! Porro quidem odio quia aspernatur autem eligendi nihil quaerat facere quod ullam cum neque numquam aliquam voluptate ipsa corrupti assumenda repudiandae alias, consequatur unde itaque fugit non molestiae. Incidunt, delectus. Sunt, odit voluptatum. Officia, eos porro! Totam dignissimos magni sit corrupti eligendi. Sit ex dolores blanditiis maiores quod corrupti adipisci molestiae. Iste nisi corporis fuga itaque voluptate. Distinctio tenetur a eius assumenda vitae, itaque quisquam qui repudiandae recusandae error voluptate praesentium ad, id quam quibusdam dignissimos, suscipit obcaecati harum quo accusantium maxime! Deserunt recusandae quo nisi animi omnis in magni. Dicta incidunt quibusdam mollitia sequi distinctio accusantium praesentium temporibus laborum! Assumenda quidem enim vitae, nisi molestiae aspernatur minima placeat aliquid ea nesciunt quia officia provident non voluptatibus labore ut maxime nulla dolorum quasi fugit similique excepturi iusto. Doloribus tempora asperiores quis voluptas recusandae, alias, numquam animi minima deserunt dolore sapiente. Repudiandae est, qui fugit tempore autem accusamus suscipit maiores, perspiciatis aliquid vel laudantium. Explicabo debitis tenetur molestiae eveniet amet nihil placeat impedit architecto quo. Pariatur consequatur in porro magnam assumenda expedita inventore provident sequi asperiores odio, culpa voluptatum fuga ad molestias animi vel quisquam laboriosam ipsa. Qui consectetur rem minus accusamus et quis doloremque voluptatibus, quos quo autem veniam temporibus sit cumque recusandae! Molestiae velit officia ab dolores, tenetur deleniti? Obcaecati quam exercitationem, delectus sapiente autem praesentium necessitatibus ex magnam quibusdam pariatur tempora consequatur nostrum sunt eos libero illum dolorem dolores saepe consequuntur tempore blanditiis? Incidunt unde culpa at officiis dolore distinctio consequuntur dicta assumenda impedit, architecto, recusandae magni nulla quisquam doloremque dolorum eius consequatur velit debitis ipsa natus obcaecati non consectetur suscipit voluptatibus. Sequi adipisci veritatis corrupti temporibus ab neque pariatur, eaque, natus maxime sunt esse tempore quidem quo in iste nesciunt quod velit ipsam! Inventore pariatur nemo possimus perferendis, deserunt odio delectus atque facere amet quisquam quo exercitationem sit hic soluta in quaerat repudiandae tempora, consequuntur quod repellendus sequi voluptate! Quidem est quo veniam cupiditate eveniet consectetur nihil hic maxime. Suscipit repudiandae ex dolorem omnis laboriosam voluptatibus voluptates tempora, delectus recusandae exercitationem. Perferendis impedit fugiat error enim amet dolores ipsam nisi adipisci ea rerum a repudiandae ex quo vero ab numquam laboriosam blanditiis praesentium eligendi minima officiis pariatur, reprehenderit labore! Veritatis aut, corrupti consequuntur, distinctio accusantium officiis quis earum esse inventore deserunt explicabo facere reiciendis!
+          </p>
         </article>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto explicabo illo deleniti, consequatur harum debitis facere, esse, tempore adipisci quaerat beatae provident placeat quia delectus nesciunt sapiente iure corrupti! Facere enim possimus iusto libero! Est beatae fuga nam totam quidem consequatur soluta nostrum distinctio temporibus excepturi tenetur qui natus eaque molestiae, ab saepe eveniet pariatur odit consectetur corrupti. Voluptatem nulla sed veritatis quo suscipit nostrum iste. Cupiditate laboriosam atque quidem veritatis deleniti nam non aliquid numquam rem placeat doloribus officia nihil assumenda, ea id, itaque minima dicta magnam ipsum, voluptatibus perspiciatis iure? Eius quae ex vel necessitatibus! Sit eum beatae aliquam fugit accusantium sed cum amet ullam exercitationem voluptatibus numquam enim laudantium, deserunt voluptas magni quibusdam quas quia? Id minima expedita laudantium obcaecati, sit libero magnam repudiandae sunt suscipit, tempora iusto perferendis quidem dolorum harum voluptas voluptatem quas odio eos maxime at doloremque vitae. Ratione enim fugiat voluptatibus! Eligendi atque provident debitis laudantium in saepe, odio ducimus beatae deserunt dolores ipsum exercitationem quibusdam mollitia voluptates ex dignissimos molestiae. Accusantium dolorum sunt aut impedit saepe quibusdam maiores tempora ex voluptates omnis, laborum sit. Numquam suscipit aspernatur cum et ducimus dolorem, accusamus veritatis expedita ipsa. Inventore voluptas quae perspiciatis facilis autem, explicabo culpa temporibus necessitatibus nam itaque. Provident unde ullam, velit quisquam aspernatur reiciendis vitae minus adipisci quis aperiam cumque maiores cum totam reprehenderit eum consectetur voluptates, nesciunt amet ducimus accusamus neque obcaecati, commodi libero. Sed quis nobis delectus aspernatur amet, natus doloremque tempore officia consectetur ea incidunt fuga sunt laborum explicabo facilis qui quod quisquam. Fuga consequuntur impedit voluptates animi tempora vel, necessitatibus soluta doloribus, nam eveniet sunt, mollitia deserunt officiis quae! Exercitationem illum facere nulla, tenetur voluptate, laboriosam mollitia harum quidem rerum a tempora sunt sit ab accusantium eveniet sequi labore consequatur blanditiis! Iure fugiat magni officiis natus rerum amet quo animi earum odio dolores ea saepe vel doloribus, accusantium consectetur vero cum quidem repudiandae deleniti? Optio id porro doloremque cum maiores ipsam repellat fugit illo aliquam neque reiciendis, voluptatum quisquam blanditiis sit vitae omnis nostrum atque magnam recusandae minus. Consectetur enim, cum repellendus sint cumque praesentium, maxime fugit dicta explicabo sed, dolorum vitae! Rem tenetur distinctio fuga, saepe alias ducimus possimus laboriosam nesciunt perferendis cumque asperiores porro, consequatur sit tempora, commodi reiciendis doloribus at voluptatibus placeat corrupti maiores sapiente vitae qui. Reprehenderit, debitis ipsum. Maxime, aspernatur molestias itaque autem mollitia nihil explicabo magni dolor eos dolore iste nobis corrupti animi. Inventore, sit praesentium magnam omnis quibusdam ipsum nam. Nam delectus magni sed modi? Inventore neque nemo harum accusamus ut eveniet, esse culpa ea optio maiores perspiciatis enim, quod minus obcaecati laboriosam dolore deserunt. Labore, id amet dolorum ipsam porro dolores consectetur quos exercitationem. Quidem eos nihil necessitatibus officia facilis. Quibusdam omnis labore quia maxime perferendis tempore odio provident iste inventore. Voluptatibus et laborum atque fuga, incidunt fugiat, distinctio commodi earum molestiae omnis magni! Aut ab eius delectus amet laborum, doloremque explicabo a est tempore totam officiis nobis inventore sapiente quibusdam saepe mollitia! Id provident nostrum mollitia voluptatum alias.
+        </p>
       </section>
     </main>
     <footer>
-      <p>&copy; Todos los derechos reservados</p>
+      <div id="centrarImagen">
+        <p>&copy; Todos los derechos reservados</p>
+      </div>
     </footer>
   </body>
 </html>
+<!-- control + a para seleccionar toda la pagina -->
